@@ -2,9 +2,9 @@ const authConfig = {
   "siteName": "Google Drive Index", 
   "siteIcon": "https://raw.githubusercontent.com/sawankumar/Google-Drive-Index/master/images/favicon.png",
   "version": "4.28",
-  "client_id": "",
-  "client_secret": "",
-  "refresh_token": "", // Authorization token
+  "client_id": "746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com",
+  "client_secret": "u5a1CSY5pNjdD2tGTU93TTnI",
+  "refresh_token": "1//098srf_vGBBP0CgYIARAAGAkSNwF-L9IrLuHih18dVBiS9U5Gt5wl07IPCurHz0b423cK8HLAA5j_Q7-Wb2QrX0lC5ZNR_jH2dao", // Authorization token
 /**
  * Set up multiple Drives to be displayed; add multiples by format
  * [id]: It can be team folder id, subfolder id, or "root" (representing the root directory of personal disk);
@@ -20,14 +20,12 @@ const authConfig = {
  **/
   "roots": [
     {
-      id: "root", //you can use folderid other than root but then search wont work
-      name: "Personal Drive",
+      id: "0AKI1aS66C6ztUk9PVA", //you can use folderid other than root but then search wont work
+      name: "my drive",
     },
     {
-        id: "drive_id",
-        name: "Personal Drive II",
-        user: 'username',
-        pass: "password",
+        id: "10n82W_mYicjhXg2lA7iS6YzR6w0vFJQX",
+        name: "asli",
       }  
   ],
 
